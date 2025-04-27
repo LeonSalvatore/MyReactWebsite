@@ -1,12 +1,17 @@
 import Header from './components/Header';
+import  Hero  from './components/Hero';
 
-// Update here
 const App = () => {
-  return (
+  
+    return(
+    <>
     <Header />
+    <main>
+      <Hero />
+    </main>
+  </>
   );
+
 }
 export default App;
-// This is a simple React application that uses Tailwind CSS for styling.
-// It includes a header and a paragraph with some basic text.
-// The application is built using Vite, a fast build tool for modern web applications.
+

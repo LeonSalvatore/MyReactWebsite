@@ -3,11 +3,20 @@
 
 
 /* base styles */
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth;}
 
 body {
    @apply bg-zinc-900 text-zinc-50;
 }
 
+@media (min-width: 768px) {
+  .header-grid {
+    display: grid !important;
+  }
+}
+@media (min-width: 768px) {
+  .navbar {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
